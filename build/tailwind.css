@@ -912,10 +912,6 @@ video {
     display: none;
   }
 
-  .xsm\:min-h-full {
-    min-height: 100%;
-  }
-
   .xsm\:w-full {
     width: 100%;
   }
@@ -947,19 +943,14 @@ video {
     padding-bottom: 0.5rem;
   }
 
-  .xsm\:py-28 {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-  }
-
-  .xsm\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
   .xsm\:py-48 {
     padding-top: 12rem;
     padding-bottom: 12rem;
+  }
+
+  .xsm\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 
   .xsm\:text-3xl {

@@ -830,14 +830,14 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media (min-width: 400px) {
+@media (min-width: 390px) {
   .xsm\:container {
     width: 100%;
   }
 
-  @media (min-width: 400px) {
+  @media (min-width: 390px) {
     .xsm\:container {
-      max-width: 400px;
+      max-width: 390px;
     }
   }
 
@@ -903,7 +903,7 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 400px) {
+@media (min-width: 390px) {
   .xsm\:block {
     display: block;
   }

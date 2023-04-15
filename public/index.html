@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="build/tailwind.css" />
+    <title>Provider</title>
+  </head>
+  <body>
+    <header class="">
+      <nav
+        class="bg-transparent shadow-none absolute z-20 w-full left-0 xsm:py-2 sm:py-2 lg:pt-7"
+      >
+        <div
+          class="flex justify-between items-center mx-auto px-3 xsm:container sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-8xl"
+        >
+          <a href="#" class="text-3xl font-semibold text-white">Logo</a>
+          <div class="xsm:hidden lg:block">
+            <ul class="flex gap-x-3 text-sm text-white">
+              <li><a href="#" class="font-bold py-2 px-3">Home</a></li>
+              <li><a href="#" class="font-bold py-2 px-3">About</a></li>
+              <li><a href="#" class="font-bold py-2 px-3">Services</a></li>
+              <li><a href="#" class="font-bold py-2 px-3">Plan</a></li>
+              <li><a href="#" class="font-bold py-2 px-3">Contact</a></li>
+            </ul>
+          </div>
+          <div class="xsm:block lg:hidden">
+            <ul>
+              <li><i class="fa-solid fa-bars text-2xl text-white"></i></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--  HERO -->
+      <section
+        class="bg-[url('/public/img/marc-olivier-jodoin-NqOInJ-ttqM-unsplash.jpg')] bg-cover bg-center bg-no-repeat bg-fixed bg-gray-600 bg-blend-multiply min-h-screen z-10 xsm:py-28 sm:py-36 lg:py-48"
+      >
+        <div
+          class="mx-auto px-3 xsm:container sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-8xl"
+        >
+          <h1
+            class="font-poppins leading-tight font-medium pb-6 text-white xsm:text-3xl sm:text-6xl"
+          >
+            Best
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-br from-red-600 to-yellow-300"
+              >Provider</span
+            ><br />Internet Plans for you
+          </h1>
+          <p class="py-4 pb-6 text-white opacity-70 xsm:w-full sm:w-6/12">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
+            tempore accusamus quis magnam doloremque itaque ad modi, pariatur
+            iste labore similique officiis impedit aspernatur aperiam facere
+            architecto. Eligendi, repellendus inventore!
+          </p>
+          <div class="flex items-center pb-4">
+            <p class="py-2 px-2.5">
+              <i
+                class="fa-sharp fa-solid fa-house-laptop text-xl text-red-600"
+              ></i>
+            </p>
+            <p class="text-white">Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="flex items-center">
+            <p class="py-2 px-2.5">
+              <i class="fa-sharp fa-solid fa-wifi text-xl text-red-600"></i>
+            </p>
+            <p class="text-white">Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="my-6">
+            <a
+              href="#"
+              class="inline-block text-center align-middle py-2.5 px-8 border-2 border-solid border-red-600 transition ease-in-out delay-75 hover:shadow-none hover:py-2.5 hover:px-8 text-white shadow-bx-sd hover:translate-x-2 hover:translate-y-2"
+              >View Plans</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- INFORMATION -->
+      <section>
+        <div class="flex xsm:flex-wrap lg:flex-nowrap">
+          <div class="bg-primary text-center p-12">
+            <i
+              class="fa-solid fa-gauge-high text-5xl text-transparent bg-clip-text bg-gradient-to-br from-red-600 to-yellow-300"
+            ></i>
+            <h4 class="text-2xl font-semibold py-3 text-white">
+              Download 1 GBPS
+            </h4>
+            <p class="text-white opacity-70">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
+              odit consequatur doloribus natus in suscipit!
+            </p>
+          </div>
+          <div class="bg-primarylight text-center p-12">
+            <i
+              class="fa-solid fa-clock text-5xl text-transparent bg-clip-text bg-gradient-to-br from-red-600 to-yellow-300"
+            ></i>
+            <h4 class="text-2xl font-semibold py-3 text-white">
+              99% Internet Uptime
+            </h4>
+            <p class="text-white opacity-70">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
+              odit consequatur doloribus natus in suscipit!
+            </p>
+          </div>
+          <div class="bg-white text-center p-12">
+            <i
+              class="fa-solid fa-headset text-5xl text-transparent bg-clip-text bg-gradient-to-br from-red-600 to-yellow-300"
+            ></i>
+            <h4 class="text-2xl font-semibold py-3">24/7 Support</h4>
+            <p class="opacity-70">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
+              odit consequatur doloribus natus in suscipit!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="bg-primarylight xsm:py-12 xl:py-20 2xl:py-40">
+        <div
+          class="flex gap-x-1 mx-auto items-center px-3 xsm:flex-col xsm:gap-y-6 sm:max-w-xl sm:gap-y-2 md:max-w-2xl lg:max-w-4xl lg:flex-row xl:max-w-6xl 2xl:max-w-8xl"
+        >
+          <div class="basis-7/12 px-3 xsm:px-0">
+            <p class="text-textlight">LOREM IPS</p>
+            <h2
+              class="font-poppins text-6xl leading-tight font-medium text-white mb-2 xsm:text-3xl sm:text-6xl"
+            >
+              Dolor sit amet cons<br />sliet non sed
+            </h2>
+            <p class="text-white opacity-70 py-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sed
+              accusantium aut dolores inventore architecto modi cupiditate
+              eligendi corporis, illum illo culpa. Reiciendis, molestias. Illum
+              voluptatum quisquam ad veritatis dolorem.
+            </p>
+            <p class="text-white opacity-70 py-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sed
+              accusantium aut dolores inventore architecto modi cupiditate
+              eligendi corporis, illum illo culpa. Reiciendis, molestias. Illum
+              voluptatum quisquam ad veritatis dolorem.
+            </p>
+            <div class="my-6">
+              <a
+                href="#"
+                class="inline-block text-center align-middle py-2.5 px-8 border-2 border-solid border-red-600 transition ease-in-out delay-75 hover:shadow-none hover:py-2.5 hover:px-8 text-white shadow-bx-sd hover:translate-x-2 hover:translate-y-2"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="basis-5/12 px-3 xsm:px-0">
+            <img
+              src="img/linkedin-sales-solutions-46bom4lObsA-unsplash (1).png"
+              alt="Two business women talking about sales in office at desk with laptop"
+              class="rounded-full mx-auto"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

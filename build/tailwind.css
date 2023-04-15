@@ -626,8 +626,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/public\/img\/marc-olivier-jodoin-NqOInJ-ttqM-unsplash\.jpg\'\)\] {
-  background-image: url('/public/img/marc-olivier-jodoin-NqOInJ-ttqM-unsplash.jpg');
+.bg-\[url\(\'\/img\/marc-olivier-jodoin-NqOInJ-ttqM-unsplash\.jpg\'\)\] {
+  background-image: url('/img/marc-olivier-jodoin-NqOInJ-ttqM-unsplash.jpg');
 }
 
 .bg-gradient-to-br {

@@ -7,7 +7,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
       },
       boxShadow: {
-        "bx-sd": "5px 5px 0 0 #b91c1c",
+        "bx-sd": "5px 5px 0 0 rgb(249 115 22);",
       },
       colors: {
         primary: "#1c262f",

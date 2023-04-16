@@ -597,6 +597,11 @@ video {
   border-style: solid;
 }
 
+.border-orange-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(251 146 60 / var(--tw-border-opacity));
+}
+
 .border-red-600 {
   --tw-border-opacity: 1;
   border-color: rgb(220 38 38 / var(--tw-border-opacity));
@@ -667,6 +672,14 @@ video {
 
 .p-12 {
   padding: 3rem;
+}
+
+.p-14 {
+  padding: 3.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-2 {
@@ -775,9 +788,29 @@ video {
   line-height: 1.25;
 }
 
-.text-red-600 {
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.text-orange-400 {
   --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
+  color: rgb(251 146 60 / var(--tw-text-opacity));
 }
 
 .text-textlight {
@@ -803,7 +836,7 @@ video {
 }
 
 .shadow-bx-sd {
-  --tw-shadow: 5px 5px 0 0 #b91c1c;
+  --tw-shadow: 5px 5px 0 0 rgb(249 115 22);;
   --tw-shadow-colored: 5px 5px 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
@@ -943,11 +976,6 @@ video {
     padding-bottom: 0.5rem;
   }
 
-  .xsm\:py-48 {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-  }
-
   .xsm\:py-40 {
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -956,6 +984,10 @@ video {
   .xsm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .xsm\:font-medium {
+    font-weight: 500;
   }
 }
 
@@ -986,11 +1018,38 @@ video {
     font-size: 3.75rem;
     line-height: 1;
   }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:font-medium {
+    font-weight: 500;
+  }
+
+  .sm\:leading-5 {
+    line-height: 1.25rem;
+  }
 }
 
 @media (min-width: 768px) {
   .md\:max-w-2xl {
     max-width: 42rem;
+  }
+
+  .md\:leading-5 {
+    line-height: 1.25rem;
   }
 }
 
@@ -1034,6 +1093,16 @@ video {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+
+  .xl\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .xl\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -1044,5 +1113,13 @@ video {
   .\32xl\:py-40 {
     padding-top: 10rem;
     padding-bottom: 10rem;
+  }
+
+  .\32xl\:leading-5 {
+    line-height: 1.25rem;
+  }
+
+  .\32xl\:leading-6 {
+    line-height: 1.5rem;
   }
 }

@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      fontSize: {
+        "32px": "2rem",
+      },
       boxShadow: {
         "bx-sd": "5px 5px 0 0 rgb(249 115 22);",
       },

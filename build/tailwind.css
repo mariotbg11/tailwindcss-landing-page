@@ -600,6 +600,10 @@ video {
   display: inline-block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -620,6 +624,14 @@ video {
   width: 100%;
 }
 
+.w-2\/4 {
+  width: 50%;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
 .basis-5\/12 {
   flex-basis: 41.666667%;
 }
@@ -632,12 +644,20 @@ video {
   flex-basis: 58.333333%;
 }
 
-.basis-3\/6 {
-  flex-basis: 50%;
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -668,12 +688,16 @@ video {
        column-gap: 1.5rem;
 }
 
+.gap-y-3 {
+  row-gap: 0.75rem;
+}
+
 .gap-y-5 {
   row-gap: 1.25rem;
 }
 
-.gap-y-3 {
-  row-gap: 0.75rem;
+.gap-y-6 {
+  row-gap: 1.5rem;
 }
 
 .rounded {
@@ -797,9 +821,19 @@ video {
   padding-right: 0.75rem;
 }
 
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .py-12 {
@@ -837,14 +871,9 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .pb-4 {
@@ -867,8 +896,24 @@ video {
   padding-top: 1rem;
 }
 
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-start {
+  text-align: start;
 }
 
 .align-middle {
@@ -942,6 +987,21 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-primarylight {
+  --tw-text-opacity: 1;
+  color: rgb(33 45 55 / var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
 .opacity-70 {
@@ -1029,6 +1089,10 @@ video {
 }
 
 @media (min-width: 390px) {
+  .xsm\:order-1 {
+    order: 1;
+  }
+
   .xsm\:block {
     display: block;
   }
@@ -1049,8 +1113,16 @@ video {
     flex-direction: column;
   }
 
+  .xsm\:flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+
   .xsm\:flex-wrap {
     flex-wrap: wrap;
+  }
+
+  .xsm\:justify-center {
+    justify-content: center;
   }
 
   .xsm\:gap-y-6 {
@@ -1072,22 +1144,27 @@ video {
     padding-bottom: 0.5rem;
   }
 
-  .xsm\:py-28 {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-  }
-
   .xsm\:py-40 {
     padding-top: 10rem;
     padding-bottom: 10rem;
   }
 
-  .xsm\:pt-28 {
-    padding-top: 7rem;
+  .xsm\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .xsm\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
 
   .xsm\:pb-40 {
     padding-bottom: 10rem;
+  }
+
+  .xsm\:pt-28 {
+    padding-top: 7rem;
   }
 
   .xsm\:text-center {
@@ -1149,16 +1226,8 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:w-full {
-    width: 100%;
-  }
-
   .md\:max-w-2xl {
     max-width: 42rem;
-  }
-
-  .md\:basis-full {
-    flex-basis: 100%;
   }
 
   .md\:text-center {
@@ -1167,12 +1236,20 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:order-last {
+    order: 9999;
+  }
+
   .lg\:block {
     display: block;
   }
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:w-2\/4 {
+    width: 50%;
   }
 
   .lg\:max-w-4xl {
@@ -1195,13 +1272,26 @@ video {
     flex-wrap: nowrap;
   }
 
+  .lg\:justify-end {
+    justify-content: flex-end;
+  }
+
   .lg\:py-48 {
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
 
+  .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .lg\:pt-7 {
     padding-top: 1.75rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 
   .lg\:text-start {
@@ -1229,36 +1319,18 @@ video {
     max-width: 1310px;
   }
 
-  .\32xl\:py-40 {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-  }
-
-  .\32xl\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
-  .\32xl\:py-14 {
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
-  }
-
   .\32xl\:py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
 
-  .\32xl\:pb-20 {
-    padding-bottom: 5rem;
+  .\32xl\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 
   .\32xl\:pb-40 {
     padding-bottom: 10rem;
-  }
-
-  .\32xl\:pt-20 {
-    padding-top: 5rem;
   }
 
   .\32xl\:pt-28 {
